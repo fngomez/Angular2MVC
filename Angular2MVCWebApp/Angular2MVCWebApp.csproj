@@ -288,6 +288,7 @@
     <Content Include="tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="images\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

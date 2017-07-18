@@ -25,19 +25,20 @@
 
             // other libraries
             'rxjs': 'npm:rxjs',
-            'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js'
+            'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
+            'ng2-bs3-modal': 'npm:/ng2-bs3-modal'
         },
         // packages tells the System loader how to load when no filename and/or no extension
         packages: {
             app: {
+                main: 'main',
                 defaultExtension: 'js',
-                meta: {
-                    './*.js': {
-                        loader: 'systemjs-angular-loader.js'
-                    }
-                }
             },
             rxjs: {
+                defaultExtension: 'js'
+            },
+            'ng2-bs3-modal': {
+                main: '/bundles/ng2-bs3-modal',
                 defaultExtension: 'js'
             }
         }
