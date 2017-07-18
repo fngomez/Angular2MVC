@@ -316,6 +316,10 @@
     <TypeScriptCompile Include="app\app.routing.ts" />
     <TypeScriptCompile Include="app\Components\home.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
+    <TypeScriptCompile Include="app\Models\user.ts" />
+    <TypeScriptCompile Include="app\Services\user.service.ts" />
+    <TypeScriptCompile Include="app\Shared\enum.ts" />
+    <TypeScriptCompile Include="app\Shared\global.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
